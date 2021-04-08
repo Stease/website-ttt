@@ -1,15 +1,15 @@
 import { NavBar } from "../components/NavBar";
-import { ContactpageWindow } from "../components/ContactpageWindow";
 import { LogoBar } from "../components/LogoBar";
+import { WatDoenWijPageWindow } from "../components/WatDoenWijpageWindow";
 
-function ContactPage() {
+function WatDoenWijPage() {
   return (
     <div className="Homepage">
       <LogoBar />
       <NavBar />
-      <ContactpageWindow />
+      <WatDoenWijPageWindow />
     </div>
   );
 }
 
-export default ContactPage;
+export default WatDoenWijPage;

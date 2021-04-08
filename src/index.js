@@ -4,6 +4,7 @@ import './styling/index.css';
 import Homepage from './pages/HomePage';
 import ContactPage from './pages/ContactPage';
 import reportWebVitals from './reportWebVitals';
+import WatDoenWijPage from "./pages/WatDoenWijPage";
 
 if (window.location.href.toLowerCase().includes("?page=home")) {
   ReactDOM.render(
@@ -19,6 +20,13 @@ if (window.location.href.toLowerCase().includes("?page=home")) {
     </React.StrictMode>,
     document.getElementById('root')
   );
+} else if (window.location.href.toLowerCase().includes("?page=watdoenwij")) {
+  ReactDOM.render(
+    <React.StrictMode>
+      <WatDoenWijPage />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
 } else {
   ReactDOM.render(
     <React.StrictMode>
@@ -27,6 +35,7 @@ if (window.location.href.toLowerCase().includes("?page=home")) {
     document.getElementById('root')
   );
 }
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

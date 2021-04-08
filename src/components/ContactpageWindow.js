@@ -15,7 +15,7 @@ export class ContactpageWindow extends React.Component {
   render() {
     return (
       <div>
-        <ImageContainer title={this.state.title} text={this.state.text} position={this.state.imagePosition} />
+        <ImageContainer contact={true} title={this.state.title} text={this.state.text} position={this.state.imagePosition} />
       </div>
     );
   }

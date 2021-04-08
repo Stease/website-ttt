@@ -11,10 +11,15 @@ export class LogoBar extends React.Component {
       companyLogo: logoBar.companyLogo,
     };
   }
+
+  handleClickLogo() {
+    window.location.replace("/?page=home");
+  }
+
   render() {
     return (
       <div className="logoBar">
-        <img className="logoImg" src={this.state.companyLogo} alt="logo"></img>
+        <button onClick={this.handleClickLogo} className="logoBtn"><img className="logoImg" src={this.state.companyLogo} alt="logo"></img></button>
         <h1 className="logoBarTitle">{this.state.companyName}</h1>
       </div>
     );

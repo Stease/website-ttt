@@ -13,10 +13,6 @@ export class NavBar extends React.Component {
     };
   }
 
-  handleClickLogo() {
-    window.location.replace("/?page=home");
-  }
-
   render() {
     return (
       <ul className="ul">

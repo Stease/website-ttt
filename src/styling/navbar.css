@@ -78,8 +78,15 @@
 
 @media only screen and (max-width: 650px) {
   .a {
-    margin-top: 1vw;
+    margin-top: 0vw;
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
+
+  .ul {
+    height: 6vw;
+  }
+
   .logo {
     height: 9vw;
     width: 9vw;
@@ -114,7 +121,8 @@
 
 @media only screen and (max-width: 410px) {
   .a {
-    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
     padding-right: 6px;
     padding-left: 1px;
   }
