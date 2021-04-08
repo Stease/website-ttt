@@ -27,7 +27,7 @@ export const homepageWindow = {
     "Hoii, Ik ben Merle, ik ben 14 jaar en ik doe van alles wat met tekenen en ontwerp te maken heeft binnen het team. Ik hou onze Instagram posts bij, maak designs voor onze pot, en ik zorg ervoor dat alles een beetje overzichtelijk blijft."
   ],
   imagePositions: ["none", "right", "left", "right", "left"],
-  containerColors: ["#E6525B", "#8BD058", "#CFBBD3"]
+  containerColors: ["#E6525B", "#8BD058", "#CFBBD3", "#a5d8ff", ""]
 }
 
 export const watDoenWijPageWindow = {
