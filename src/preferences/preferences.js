@@ -18,12 +18,12 @@ export const homepageWindow = {
     "/img/merle.png",
   ],
   imageAlts: ["Groepsfoto", "Flora", "Gabriel", "Thibault", "Merle"],
-  imageTitles: ["Wie zijn wij?", "Flora", "Garbiel", "Thibault", "Merle"],
+  imageTitles: ["Wie zijn wij?", "Flora", "Gabriel", "Thibault", "Merle"],
   imageTexts: [
     "Hallo wij zijn de mensen van TillerTutorTech, een projectgroep gemaakt van 4 vrienden, onze groep bestaat uit Flora, Thibault, Gabriel en Merle. In dit team hebben we allemaal een eigen taak en doen we altijd wat we leuk vinden. We overleggen veel en zorgen ervoor dat alles altijd op en top eruitziet!\nHier nog wat meer over wie wij zijn:",
     "Hey hey hey! Ik ben Flora, ik ben 14 en regel alles wat met de website te maken heeft, ook regel ik de Instagram voor een deel samen met Merle en zorg voor onze klanten.",
     "Hallo, ik ben Gabriel, ik ben 14 en ik werk veel in de marketing en als projecthoofd van ons bedrijf. Mijn doel is om met ons idee het leven voor veel mensen makkelijker te maken!",
-    "Hallo ik ben Thibault (thie-boo, ik ben 15 jaar en vind het erg leuk om te programmeren. Ik focus me voornamelijk op het programmeren van onze planten pot en ik help met het maken van belangrijke keuzes.",
+    "Hallo ik ben Thibault (thie-boo). Ik ben 15 jaar en vind het erg leuk om te programmeren. Ik focus me voornamelijk op het programmeren van onze planten pot en ik help met het maken van belangrijke keuzes.",
     "Hoii, Ik ben Merle, ik ben 14 jaar en ik doe van alles wat met tekenen en ontwerp te maken heeft binnen het team. Ik hou onze Instagram posts bij, maak designs voor onze pot, en ik zorg ervoor dat alles een beetje overzichtelijk blijft."
   ],
   imagePositions: ["none", "right", "left", "right", "left"],
