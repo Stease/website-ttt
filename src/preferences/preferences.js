@@ -4,9 +4,9 @@ export const logoBar = {
 }
 
 export const navbar = {
-  navbarItems: ["Wat doen wij?", "Contact"],
-  navbarItemsIcons: ["", ""],
-  navbarLinks: ["?page=watdoenwij", "?page=contact"],
+  navbarItems: ["Wie zijn wij?", "Wat doen wij?", "Contact"],
+  navbarItemsIcons: ["", "", ""],
+  navbarLinks: ["?page=home", "?page=watdoenwij", "?page=contact"],
 }
 
 export const homepageWindow = {
@@ -27,7 +27,7 @@ export const homepageWindow = {
     "Hoii, Ik ben Merle, ik ben 14 jaar en ik doe van alles wat met tekenen en ontwerp te maken heeft binnen het team. Ik hou onze Instagram posts bij, maak designs voor onze pot, en ik zorg ervoor dat alles een beetje overzichtelijk blijft."
   ],
   imagePositions: ["none", "right", "left", "right", "left"],
-  containerColors: ["#E6525B", "#8BD058", "#CFBBD3", "#a5d8ff", ""]
+  containerColors: ["#fdfd96", "#8BD058", "#CFBBD3", "#a5d8ff", "#fdfd96"]
 }
 
 export const watDoenWijPageWindow = {
